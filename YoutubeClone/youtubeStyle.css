@@ -31,6 +31,29 @@ p{
     row-gap: 40px;
 }
 
+@media (min-width: 360px) and (max-width: 420px){
+    .videoGridContainer{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 870px){
+    .videoGridContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 871px) and (max-width: 1250px){
+    .videoGridContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1251px) and (max-width: 3345px){
+    .videoGridContainer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 
 .videoInfoGrid{
     display: grid;
